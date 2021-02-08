@@ -1,0 +1,26 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/msdb
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+keycloak:
+  realm: MySynthesisLab-realm
+  auth-server-url: http://localhost:8080/auth
+  resource: customers-app
+  bearer-only: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
