@@ -1,7 +1,7 @@
 # Microservices - Spring Cloud
 
 ## MLD
-![alt text](https://github.com/Medomane/Demo/tree/main/Services/mld.png?raw=true)
+![alt text](https://github.com/Medomane/Demo/blob/main/Services/mld.png?raw=true)
 
 ## Services
 ![alt text](https://github.com/Medomane/Demo/tree/main/Services/mld-services.png?raw=true)
